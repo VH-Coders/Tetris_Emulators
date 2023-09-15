@@ -23,7 +23,7 @@ RAYLIB_DEPEND := GL m pthread dl rt X11
 LDFLAGS=$(foreach lib, $(RAYLIB_DEPEND), -l$(lib))
 
 $(BIN): $(OBJS) $(RAYLIB)
-	$(CC) $(CFLAGS) -o $(BIN) $(RAYLIB) $(OBJS) $(LDFLAGS)
+	$(CC) $(CFLAGS) -o $(BIN) $(OBJS) $(RAYLIB) $(LDFLAGS)
 
 %.o: %.c $(INCL_FILES)
 	$(CC) $(CFLAGS) -c $< -o $@
