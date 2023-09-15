@@ -13,4 +13,8 @@
 
 #define GAME_FPS 60
 
+#define GRID_SQUARE_SIZE 20 // Size of an individual grid square in 
+#define GRID_WIDTH 12       // Number of columns in the grid
+#define GRID_HEIGHT 20      // Number of rows in the grid
+
 #endif
