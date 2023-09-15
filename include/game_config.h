@@ -4,6 +4,7 @@
  * It's intended to be able to be included in any module.
  *
  */
+#include <stdlib.h>
 #ifndef TETRIS_GAME_CONFIG_H
 #define TETRIS_GAME_CONFIG_H
 
